@@ -22,7 +22,7 @@
 
 ## Description
 
->This application can be used to search articles within the New York Times database. 
+>This application can be used to search New York Times articles in their database using the NYTimes API. 
 
 ## Usage
 
