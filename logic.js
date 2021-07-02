@@ -33,4 +33,27 @@ let startYear = $("#start-year")
 
   if (parseInt(endYear)) {
     queryParams.end_date = endYear + "0101";
-  }
+
+      // Logging the URL so we have access to it for troubleshooting
+  console.log("---------------\nURL: " + queryURL + "\n---------------");
+  console.log(queryURL + $.param(queryParams));
+  return queryURL + $.param(queryParams);
+} 
+
+/**
+ * takes API data (JSON/object) and turns it into elements on the page
+ * @param {object} NYTData - object containing NYT API data
+ */
+function updatePage(NYTData) {
+  // Get from the form the number of results to display
+  // API doesn't have a "limit" parameter, so we have to do this ourselves
+  let numArticles = $("#article-count").val();
+
+  // Log the NYTData to console, where it will show up as an object
+  console.log(NYTData);
+  console.log("------------------------------------");
+
+  // Loop through and build elements for the defined number of articles
+  for (var i = 0; i < numArticles; i++) {
+    // Get specific article info for current index
+    let article = NYTData.response.docs[i];
