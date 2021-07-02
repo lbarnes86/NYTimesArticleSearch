@@ -41,7 +41,11 @@ A user can use the NYTimes application to search for an article. You can limit y
 
 ### Screenshots
 
+<img src="https://user-images.githubusercontent.com/70309736/124316990-13b3c000-db3c-11eb-974f-e7767bca85ee.png">
 
+<img src="https://user-images.githubusercontent.com/70309736/124316993-144c5680-db3c-11eb-9c4c-808b1eee6385.png">
+
+<img src="https://user-images.githubusercontent.com/70309736/124316994-144c5680-db3c-11eb-94c1-b050e5f99665.png">
 
 ## Contributors
 
