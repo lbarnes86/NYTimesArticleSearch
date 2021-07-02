@@ -59,18 +59,18 @@ function updatePage(NYTData) {
     let article = NYTData.response.docs[i];
 
      // Increase the articleCount (track article # - starting at 1)
-     var articleCount = i + 1;
+     let articleCount = i + 1;
 
      // Create the  list group to contain the articles and add the article content for each
-     var $articleList = $("<ul>");
+     let $articleList = $("<ul>");
      $articleList.addClass("list-group");
  
      // Add the newly created element to the DOM
      $("#article-section").append($articleList);
  
      // If the article has a headline, log and append to $articleList
-     var headline = article.headline;
-     var $articleListItem = $("<li class='list-group-item articleHeadline'>");
+     let headline = article.headline;
+     let $articleListItem = $("<li class='list-group-item articleHeadline'>");
  
      if (headline && headline.main) {
        console.log(headline.main);
