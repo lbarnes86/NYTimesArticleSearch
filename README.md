@@ -7,7 +7,7 @@
 
 - [Project Deployment](https://lbarnes86.github.io/NYTimesArticleSearch/)
 
-- [Project Repository](https://github.com/lbarnes86/NYTimesArticleSearch))
+- [Project Repository](https://github.com/lbarnes86/NYTimesArticleSearch)
 
 
 ## Table of Contents
